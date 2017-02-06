@@ -10,7 +10,8 @@ body {
 header {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
-    width: 100%
+    width: 100%;
+    position: static;
 }
 
 .footer {
@@ -338,6 +339,9 @@ fieldset {
         width: 100%;
         align-content: center;
     }
+
+    header {
+        position: static;
 
     #left_section {
         width: 85%;
