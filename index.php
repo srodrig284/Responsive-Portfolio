@@ -6,3 +6,4 @@
  * Version: @VERSION@
  */
 include ('index.html');
+?>
