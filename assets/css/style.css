@@ -134,12 +134,31 @@ a {
 /*a:visited {
     text-decoration: none;
     color: #4aaaa5;
-}*/
+}*//*
 
 a:hover{ background-color: red;
     text-decoration: underline;}
-
+*/
 /*a:focus{ background-color: orange; }*/
+/*
+a:hover,
+a:focus {
+    color: #0ce3ac;
+    text-decoration: underline;
+}
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}*/
+
+a:hover,
+a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #375a7f;
+}
+
 
 p {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
