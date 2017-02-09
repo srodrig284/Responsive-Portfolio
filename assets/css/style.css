@@ -131,34 +131,29 @@ a {
     color: #424242;
 }
 
-/*a:visited {
-    text-decoration: none;
-    color: #4aaaa5;
-}*//*
-
-a:hover{ background-color: red;
-    text-decoration: underline;}
-*/
-/*a:focus{ background-color: orange; }*/
 /*
-a:hover,
-a:focus {
-    color: #0ce3ac;
-    text-decoration: underline;
-}
-a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-}*/
-
 a:hover,
 a:focus {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
     background-color: #375a7f;
+}*/
+
+
+.table > li > a:hover,
+.table > li > a:focus{
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #375a7f;
+    padding: 10px;
 }
 
+nav a:hover,
+nav a:focus{
+    color: #ffffff;
+}
 
 p {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -378,7 +373,7 @@ fieldset {
         display: block;
     }
 
-    #table {
+    .table {
         display: table;   /* Allow the centering to work */
         margin: 0 auto;
     }
