@@ -272,9 +272,85 @@ fieldset {
     color: #f7f7f7;
 }
 
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper_header{
+        width: 100%;
+    }
+
+    #main_heading {
+        width: 40%;
+    }
+
+    #main_heading_menu {
+        margin: 20px auto 0 auto;
+    }
+
+    #portpic {
+        width: 100%;
+        float: none;
+    }
+
+    #absolute {
+        width: 425px;
+    }
+
+    #profpic {
+        width:100%;
+    }
+    p{
+        float: right;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .portfolio_container {
+        width: 100%;
+    }
+
+    #left_section {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+    #main_heading_menu {
+        margin: 20px auto 0 auto;
+    }
+
+    #right_menu {
+        margin: 0 20px 40px 20px;
+        padding: 20px;
+    }
+
+    .portfolio_images {
+        width: 40%;
+        margin: 40px 20px 0 20px;
+    }
+
+    #profpic {
+        width: 35%;
+    }
+
+    #portpic {
+        width: 100%;
+    }
+
+    #absolute {
+        width: 81%;
+    }
+
+    p {
+        float: none;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     #main_heading {
-        width: 100%;
+        margin: 0 150px 0 150px;
         text-align: center;
     }
 
@@ -313,71 +389,4 @@ fieldset {
         width: 100%;
     }
 
-}
-
-@media only screen and (max-width: 768px) {
-    .portfolio_container {
-        width: 100%;
-    }
-
-    #left_section {
-        width: 90%;
-        margin: 20px;
-        padding: 20px;
-    }
-    #main_heading_menu {
-        margin: 20px auto 0 auto;
-    }
-
-    #right_menu {
-        margin: 0 20px 40px 20px;
-        padding: 20px;
-    }
-
-    .portfolio_images {
-        width: 40%;
-        margin: 40px 20px 0 20px;
-    }
-
-    #profpic {
-        width: 35%;
-    }
-
-    #portpic {
-        width: 100%;
-    }
-
-    #absolute {
-        width: 81%;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    .container {
-        width: 100%;
-    }
-
-    .wrapper_header{
-        width: 100%;
-    }
-
-    #main_heading {
-        margin: 0;
-    }
-
-    #main_heading_menu {
-        margin: 20px auto 0 auto;
-    }
-
-    #profpic {
-        width: 100%;
-    }
-
-    #portpic {
-        width: 100%;
-    }
-
-    #absolute {
-        width: 425px;
-    }
 }
