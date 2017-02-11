@@ -63,7 +63,7 @@ html, body {
 
 .wrapper_header {
     min-height: 100%;
-    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto;
 }
 
 .footer, .push { /* .push must be the same height as .footer */
@@ -272,39 +272,47 @@ fieldset {
     color: #f7f7f7;
 }
 
-@media only screen and (max-width: 980px) {
-    .container {
-        width: 100%;
-    }
-
-    .wrapper_header{
-        width: 100%;
-    }
-
+@media only screen and (max-width: 640px) {
     #main_heading {
-        width: 60%;
-        margin: 0;
+        width: 100%;
+        text-align: center;
     }
 
     #main_heading_menu {
-        margin: 20px auto 0 auto;
-    }
-
-    #left_section {
-        width: 50%;
+        width: 100%;
     }
 
     #profpic {
+        width: 98%;
+    }
+
+    /*h1 {
+        display: block;
+    }*/
+
+    .table {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+    }
+
+    .portfolio_images {
+        margin-right: 0;
+        margin-top: 0;
+        overflow: visible;
         width: 100%;
     }
 
     #portpic {
-        width: 100%;
+        width: 90%;
     }
 
     #absolute {
-        width: 425px;
+        width: 450px;
     }
+    .wrapper_header{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -317,9 +325,11 @@ fieldset {
         margin: 20px;
         padding: 20px;
     }
+    #main_heading_menu {
+        margin: 20px auto 0 auto;
+    }
 
     #right_menu {
-        width: 90%;
         margin: 0 20px 40px 20px;
         padding: 20px;
     }
@@ -342,55 +352,32 @@ fieldset {
     }
 }
 
-@media only screen and (max-width: 640px) {
-    #main_heading {
+@media only screen and (max-width: 980px) {
+    .container {
         width: 100%;
-        text-align: center;
-        padding:0;
+    }
+
+    .wrapper_header{
+        width: 100%;
+    }
+
+    #main_heading {
+        margin: 0;
     }
 
     #main_heading_menu {
-        width: 100%;
-        align-content: center;
-    }
-
-    header {
-        position: static;
-
-    #left_section {
-        width: 85%;
-    }
-
-    #right_menu {
-        width: 85%;
+        margin: 20px auto 0 auto;
     }
 
     #profpic {
-        width: 98%;
-    }
-
-    h1 {
-        display: block;
-    }
-
-    .table {
-        display: table;   /* Allow the centering to work */
-        margin: 0 auto;
-    }
-
-    .portfolio_images {
-        margin-right: 0;
-        margin-top: 0;
-        overflow: visible;
         width: 100%;
     }
 
     #portpic {
-        width: 90%;
+        width: 100%;
     }
 
     #absolute {
-        width: 450px;
+        width: 425px;
     }
-
 }
